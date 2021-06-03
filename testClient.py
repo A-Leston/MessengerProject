@@ -8,7 +8,7 @@ from tkinter import *
 
 # setting up the server IP/Port info
 PORT = 20020
-SERVER = "32.210.204.155"  # must be set to the public IP/domain name of the network where server-side code is running
+SERVER = "0.0.0.0"  # must be set to the public IP/domain name of the network where server-side code is running
 ADDRESS = (SERVER, PORT)
 FORMAT = "utf-8"
 
